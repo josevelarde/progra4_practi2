@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="description" content= "practica 2 de HTML5"/>
+        <meta name="keywords" content="HTML5,CSS3,JavaScript" />
+        <title>Formulario</title>
+        <link rel="stylesheet" href=""/>
+    </head>
+    <body>
+   <div>
+<form>
+
+ <fieldset>
+  <h1> <b> AGREGAR EMPLEADO </b> </h1><br>
+</fieldset>
+<br/>
+<br/>
+<fieldset>
+  <h1> <b> LABORAL </b> </h1>
+
+   <label for="txtCodigo">Codigo</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtcodigo" name="codigo"/>
+   <br/>
+   <br/>
+   <label for="txtfechadeingreso">FECHA DE INGRESO</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtfechadeingreso" name="FECHA DE INGRESO"/>
+   <br/>
+   <br/>
+   <label for="txtSeguridad Social ">Seguridad Social</label><br/>
+   <select name= "escoger uno">
+   <option>SELECCIONAR UNA OPCION</option>
+   <option> IMSS </option>
+   <option> ISSTE </option>
+</select>
+   <br/>
+   <br/>
+   <label for="txtnumero">Numero</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtnumero" name="numero"/>
+</fieldset>
+   <br/>
+   <br/>
+
+<fieldset>
+<h1> <b> PERSONAL </b> </h1>
+
+<label for="txtnombre">Nombre</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtnombre" name="Nombre"/>
+   <br/>
+   <br/>
+<label for="txtApellido Paterno">Apellido Paterno</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtApellido Paterno" name="Apellido Paterno"/>
+   <br/>
+   <br/>
+<label for="txtApellido Materno">Apellido Materno</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtApellido Materno" name="Apellido Materno"/>
+   <br/>
+   <br/>
+<label for = "txtFoto"> Foto </label> <br/>
+	<from enctype="multipart/from-data" action="uploadfile.html" method="POST">
+	<input name ="userfile" type="file">
+	<br>
+	<!--input type="submit" value=" Upload File"-->
+	<!--/from-->
+	<!--" Guardar la imagen."-->
+	<p></p>
+	
+<label for="txtSexo">Sexo</label><br/>
+   <input type="radio" name="Sexo" value = "M" checked= "checked" id= "radio"/>
+   <label for = "radioM"> Masculino </label>
+   <input type= "radio" name="Sexo" value = "F" checked= "checked" id= "radio"/> 
+<label for = "radioF"> Femenino </label><br/>
+<br/>
+<label for="txtEstado Civil ">Estado Civil</label><br/>
+   <select name= "escoger uno">
+   <option>SELECCIONAR UNA OPCION</option>
+   <option> Soltero </option>
+   <option> Divorciado </option>
+   <option> Viudo </option>
+   <option> Pensando Que Hacer Con su Vida </option>
+</select>		
+</fieldset>
+   <br/>
+   <br/>
+<fieldset>
+<h1> <b> NACIMIENTO </b> </h1>
+
+<label for="txtFecha de Nacimiento">Fecha de Naciemiento</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtnombre" name="Nombre"/>
+   <br/>
+   <br/>
+<label for="txtPais ">Pais</label><br/>
+   <select name= "escoger uno">
+   <option>SELECCIONAR UNA OPCION</option>
+   <option>Afganistán</option>
+   <option>Albania</option>
+   <option>Alemania</option> 
+   <option>Andorra</option>
+   <option>Angola</option>
+   <option>Antigua y Barbuda</option>
+   <option>Arabia Saudita</option>
+   <option>Argelia</option>
+   <option>Argentina</option>
+   <option>Armenia</option>
+   <option>Australia</option>
+   <option>Austria</option>
+   <option>Azerbaiyán</option>
+   <option>Bahamas</option>
+   <option>Bangladés</option>
+   <option>Barbados</option>
+   <option>Baréin</option>
+   <option>Bélgica</option>
+   <option>Belice</option>
+   <option>Benín</option>
+   <option>Bielorrusia</option>
+   <option>Birmania</option>
+   <option>Bolivia</option>
+   <option>Bosnia y Herzegovina</option>
+   <option>Botsuana</option>
+   <option>Brasil</option>
+   <option>Brunéi</option>
+   <option>Bulgaria</option>
+   <option>Burkina Faso</option>
+   <option>Burundi</option>
+   <option>Bután</option>
+   <option>Cabo Verde</option>
+   <option>Camboya</option>
+   <option>Camerún</option>
+   <option>Canadá</option>
+   <option>Catar</option>
+   <option>Chad</option>
+   <option>Chile</option>
+   <option>China</option>
+   <option>Chipre</option>
+   <option>Ciudad del Vaticano</option>
+   <option>Colombia</option>
+   <option>Comoras</option>
+   <option>Corea del Norte</option>
+   <option>Corea del Sur</option>
+   <option>Costa de Marfil</option>
+   <option>Costa Rica</option>
+   <option>Croacia</option>
+   <option>Cuba</option>
+   <option>Dinamarca</option>
+   <option>Dominica</option>
+   <option>Ecuador</option>
+   <option>Egipto</option>
+   <option>El Salvador</option>
+   <option>Emiratos Árabes Unidos</option>
+   <option>Eritrea</option>
+   <option>Eslovaquia</option>
+   <option>Eslovenia</option>
+   <option>España</option>
+   <option>Estados Unidos</option>
+   <option>Estonia</option>
+   <option>Etiopía</option>
+   <option>Filipinas</option>
+   <option>Finlandia</option>
+   <option>Fiyi</option>
+   <option>Francia</option>
+   <option>Gabón</option>
+   <option>Gambia</option>
+   <option>Georgia</option>
+   <option>Ghana</option>
+   <option>Granada</option>
+   <option>Grecia</option>
+   <option>Guatemala</option>
+   <option>Guayana</option>
+   <option>Guinea</option>
+   <option>Guinea ecuatorial</option>
+   <option>Guinea-Bisáu</option>
+   <option>Haití</option>
+   <option>Honduras</option>
+   <option>Hungría</option>
+   <option>India</option>
+   <option>Indonesia</option>
+   <option>Irak</option>
+   <option>Irán</option>
+   <option>Irlanda</option>
+   <option>Islandia</option>
+   <option>Islas Marshall</option>
+   <option>Islas Salomón</option>
+   <option>Israel</option>
+   <option>Italia</option>
+   <option>Jamaica</option>
+   <option>Japón</option>
+   <option>Jordania</option>
+   <option>Kazajistán</option>
+   <option>Kenia</option>
+   <option>Kirguistán</option>
+   <option>Kiribati</option>
+   <option>Kuwait</option>
+   <option>Laos</option>
+   <option>Lesoto</option>
+   <option>Letonia</option>
+   <option>Líbano</option>
+   <option>Liberia</option>
+   <option>Libia</option>
+   <option>Liechtenstein</option>
+   <option>Lituania</option>
+   <option>Luxemburgo</option>
+   <option>Madagascar</option>
+   <option>Malasia</option>
+   <option>Malaui</option>
+   <option>Maldivas</option>
+   <option>Malí</option>
+   <option>Malta</option>
+   <option>Marruecos</option>
+   <option>Mauricio</option>
+   <option>Mauritania</option>
+   <option>México</option>
+   <option>Micronesia</option>
+   <option>Moldavia</option>
+   <option>Mónaco</option>
+   <option>Mongolia</option>
+   <option>Montenegro</option>
+   <option>Mozambique</option>
+   <option>Namibia</option>
+   <option>Nauru</option>
+   <option>Nepal</option>
+   <option>Nicaragua</option>
+   <option>Níger</option>
+   <option>Nigeria</option>
+   <option>Noruega</option>
+   <option>Nueva Zelanda</option>
+   <option>Omán</option>
+   <option>Países Bajos</option>
+   <option>Pakistán</option>
+   <option>Palaos</option>
+   <option>Panamá</option>
+   <option>Papúa Nueva Guinea</option>
+   <option>Paraguay</option>
+   <option>Perú</option>
+   <option>Polonia</option>
+   <option>Portugal</option>
+   <option>Reino Unido</option>
+   <option>República Centroafricana</option>
+   <option>República Checa</option>
+   <option>República de Macedonia</option>
+   <option>República del Congo</option>
+   <option>República Democrática del Congo</option>
+   <option>República Dominicana</option>
+   <option>República Sudafricana</option>
+   <option>Ruanda</option>
+   <option>Rumanía</option>
+   <option>Rusia</option>
+   <option>Samoa</option>
+   <option>San Cristóbal y Nieves</option> 
+   <option>San Marino</option>
+   <option>San Vicente y las Granadinas</option>
+   <option>Santa Lucía</option>
+   <option>Santo Tomé y Príncipe</option>
+   <option>Senegal</option>
+   <option>Serbia</option>
+   <option>Seychelles</option>
+   <option>Sierra Leona</option>
+   <option>Singapur</option>
+   <option>Siria</option>
+   <option>Somalia</option>
+   <option>Sri Lanka</option>
+   <option>Suazilandia</option>
+   <option>Sudán</option>
+   <option>Sudán del Sur</option>
+   <option>Suecia</option>
+   <option>Suiza</option>
+   <option>Surinam</option>
+   <option>Tailandia</option>
+   <option>Tanzania</option>
+   <option>Tayikistán</option>
+   <option>Timor Oriental</option>
+   <option>Togo</option>
+   <option>Tonga</option>
+   <option>Trinidad y Tobago</option>
+   <option>Túnez</option>
+   <option>Turkmenistán</option>
+   <option>Turquía</option>
+   <option>Tuvalu</option>
+   <option>Ucrania</option>
+   <option>Uganda</option>
+   <option>Uruguay</option>
+   <option>Uzbekistán</option>
+   <option>Vanuatu</option>
+   <option>Venezuela</option>
+   <option>Vietnam</option>
+   <option>Yemen</option>
+   <option>Yibuti</option>
+   <option>Zambia</option>
+   <option>Zimbabue</option>
+</select>
+   <br/>
+   <br/>
+</fieldset>
+   <br/>
+   <br/>
+<fieldset>
+<h1> <b> CONTACTO </b> </h1>
+
+<label for="txtTITULO">TITULO</label><br/>
+   <input type="text" size="40" maxlength="255" id="txttitulo" name="titulo"/>
+   <br/>
+   <br/>
+<label for="txtCURP">CURP</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtCURP" name="CURP"/>
+   <br/>
+   <br/>
+<label for="txtRFC">RFC</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtRFC" name="RFC"/>
+   <br/>
+   <br/>
+<label for="txtTelefono">Telefono</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtTelefono" name=" Telefono"/>
+   <br/>
+   <br/>
+<label for="txtCelular">Celular</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtCelular" name="Celular"/>
+   <br/>
+   <br/>
+<label for="txtDomicilio">Domicilio</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtDomicilio" name="Domicilio"/>
+   <br/>
+   <br/>
+<label for="txtColonia">Colonia</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtColonia" name="Colonia"/>
+   <br/>
+   <br/>
+<label for="txtCodigo Postal">Codigo Postal</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtCodigo Postal" name="Codigo Postal"/>
+   <br/>
+   <br/>
+<label for="txtPais ">Pais</label><br/>
+   <select name= "escoger uno">
+   <option>SELECCIONAR UNA OPCION</option>
+   <option> Afganistán</option>
+   <option>Albania</option>
+   <option>Alemania</option> 
+   <option>Andorra</option>
+   <option>Angola</option>
+   <option>Antigua y Barbuda</option>
+   <option>Arabia Saudita</option>
+   <option>Argelia</option>
+   <option>Argentina</option>
+   <option>Armenia</option>
+   <option>Australia</option>
+   <option>Austria</option>
+   <option>Azerbaiyán</option>
+   <option>Bahamas</option>
+   <option>Bangladés</option>
+   <option>Barbados</option>
+   <option>Baréin</option>
+   <option>Bélgica</option>
+   <option>Belice</option>
+   <option>Benín</option>
+   <option>Bielorrusia</option>
+   <option>Birmania</option>
+   <option>Bolivia</option>
+   <option>Bosnia y Herzegovina</option>
+   <option>Botsuana</option>
+   <option>Brasil</option>
+   <option>Brunéi</option>
+   <option>Bulgaria</option>
+   <option>Burkina Faso</option>
+   <option>Burundi</option>
+   <option>Bután</option>
+   <option>Cabo Verde</option>
+   <option>Camboya</option>
+   <option>Camerún</option>
+   <option>Canadá</option>
+   <option>Catar</option>
+   <option>Chad</option>
+   <option>Chile</option>
+   <option>China</option>
+   <option>Chipre</option>
+   <option>Ciudad del Vaticano</option>
+   <option>Colombia</option>
+   <option>Comoras</option>
+   <option>Corea del Norte</option>
+   <option>Corea del Sur</option>
+   <option>Costa de Marfil</option>
+   <option>Costa Rica</option>
+   <option>Croacia</option>
+   <option>Cuba</option>
+   <option>Dinamarca</option>
+   <option>Dominica</option>
+   <option>Ecuador</option>
+   <option>Egipto</option>
+   <option>El Salvador</option>
+   <option>Emiratos Árabes Unidos</option>
+   <option>Eritrea</option>
+   <option>Eslovaquia</option>
+   <option>Eslovenia</option>
+   <option>España</option>
+   <option>Estados Unidos</option>
+   <option>Estonia</option>
+   <option>Etiopía</option>
+   <option>Filipinas</option>
+   <option>Finlandia</option>
+   <option>Fiyi</option>
+   <option>Francia</option>
+   <option>Gabón</option>
+   <option>Gambia</option>
+   <option>Georgia</option>
+   <option>Ghana</option>
+   <option>Granada</option>
+   <option>Grecia</option>
+   <option>Guatemala</option>
+   <option>Guayana</option>
+   <option>Guinea</option>
+   <option>Guinea ecuatorial</option>
+   <option>Guinea-Bisáu</option>
+   <option>Haití</option>
+   <option>Honduras</option>
+   <option>Hungría</option>
+   <option>India</option>
+   <option>Indonesia</option>
+   <option>Irak</option>
+   <option>Irán</option>
+   <option>Irlanda</option>
+   <option>Islandia</option>
+   <option>Islas Marshall</option>
+   <option>Islas Salomón</option>
+   <option>Israel</option>
+   <option>Italia</option>
+   <option>Jamaica</option>
+   <option>Japón</option>
+   <option>Jordania</option>
+   <option>Kazajistán</option>
+   <option>Kenia</option>
+   <option>Kirguistán</option>
+   <option>Kiribati</option>
+   <option>Kuwait</option>
+   <option>Laos</option>
+   <option>Lesoto</option>
+   <option>Letonia</option>
+   <option>Líbano</option>
+   <option>Liberia</option>
+   <option>Libia</option>
+   <option>Liechtenstein</option>
+   <option>Lituania</option>
+   <option>Luxemburgo</option>
+   <option>Madagascar</option>
+   <option>Malasia</option>
+   <option>Malaui</option>
+   <option>Maldivas</option>
+   <option>Malí</option>
+   <option>Malta</option>
+   <option>Marruecos</option>
+   <option>Mauricio</option>
+   <option>Mauritania</option>
+   <option>México</option>
+   <option>Micronesia</option>
+   <option>Moldavia</option>
+   <option>Mónaco</option>
+   <option>Mongolia</option>
+   <option>Montenegro</option>
+   <option>Mozambique</option>
+   <option>Namibia</option>
+   <option>Nauru</option>
+   <option>Nepal</option>
+   <option>Nicaragua</option>
+   <option>Níger</option>
+   <option>Nigeria</option>
+   <option>Noruega</option>
+   <option>Nueva Zelanda</option>
+   <option>Omán</option>
+   <option>Países Bajos</option>
+   <option>Pakistán</option>
+   <option>Palaos</option>
+   <option>Panamá</option>
+   <option>Papúa Nueva Guinea</option>
+   <option>Paraguay</option>
+   <option>Perú</option>
+   <option>Polonia</option>
+   <option>Portugal</option>
+   <option>Reino Unido</option>
+   <option>República Centroafricana</option>
+   <option>República Checa</option>
+   <option>República de Macedonia</option>
+   <option>República del Congo</option>
+   <option>República Democrática del Congo</option>
+   <option>República Dominicana</option>
+   <option>República Sudafricana</option>
+   <option>Ruanda</option>
+   <option>Rumanía</option>
+   <option>Rusia</option>
+   <option>Samoa</option>
+   <option>San Cristóbal y Nieves</option> 
+   <option>San Marino</option>
+   <option>San Vicente y las Granadinas</option>
+   <option>Santa Lucía</option>
+   <option>Santo Tomé y Príncipe</option>
+   <option>Senegal</option>
+   <option>Serbia</option>
+   <option>Seychelles</option>
+   <option>Sierra Leona</option>
+   <option>Singapur</option>
+   <option>Siria</option>
+   <option>Somalia</option>
+   <option>Sri Lanka</option>
+   <option>Suazilandia</option>
+   <option>Sudán</option>
+   <option>Sudán del Sur</option>
+   <option>Suecia</option>
+   <option>Suiza</option>
+   <option>Surinam</option>
+   <option>Tailandia</option>
+   <option>Tanzania</option>
+   <option>Tayikistán</option>
+   <option>Timor Oriental</option>
+   <option>Togo</option>
+   <option>Tonga</option>
+   <option>Trinidad y Tobago</option>
+   <option>Túnez</option>
+   <option>Turkmenistán</option>
+   <option>Turquía</option>
+   <option>Tuvalu</option>
+   <option>Ucrania</option>
+   <option>Uganda</option>
+   <option>Uruguay</option>
+   <option>Uzbekistán</option>
+   <option>Vanuatu</option>
+   <option>Venezuela</option>
+   <option>Vietnam</option>
+   <option>Yemen</option>
+   <option>Yibuti</option>
+   <option>Zambia</option>
+   <option>Zimbabue</option>
+</select>
+   <br/>
+   <br/>
+<label for="txtRadio">Radio</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtRadio" name="Radio"/>
+   <br/>
+   <br/>
+<label for="txtCorreo Electronico">Correo Electronico</label><br/>
+   <input type="text" size="40" maxlength="255" id="txtCorreo Electronico" name="Correo Electronico"/>
+   <br/>
+   <br/><label for="txtObservaciones">Observaciones</label><br/>
+   <input type="text" size="40" maxlength="200" id="txtObservaciones" name="Observaciones"/>
+   <br/>
+   <br/>
+</fieldset>
+<input type = "submit" name =   "AGREGAR" value =   "  AGREGAR"/>
+<input type = "submit" name =   "CANCELAR" value =  " CANCELAR"/>
+	</form>
+	</body>
+	</html>	
